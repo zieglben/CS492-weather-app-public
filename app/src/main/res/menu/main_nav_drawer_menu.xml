@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/current_weather"
+        android:title="@string/label_current_weather"
+        android:icon="@drawable/ic_action_current_weather" />
+
+    <item
+        android:id="@+id/five_day_forecast"
+        android:title="@string/label_five_day_forecast"
+        android:icon="@drawable/ic_action_five_day_forecast" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/label_settings"
+        android:icon="@drawable/ic_action_settings" />
+
+    <item
+        android:id="@+id/cities"
+        android:title="@string/forecast_cities">
+        <menu></menu>
+    </item>
+
+</menu>
